@@ -23,6 +23,12 @@
 		E8B1505B175A967E0005AB55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8B15036175A967D0005AB55 /* Foundation.framework */; };
 		E8B15063175A967E0005AB55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8B15061175A967E0005AB55 /* InfoPlist.strings */; };
 		E8B15066175A967E0005AB55 /* OneRepMaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B15065175A967E0005AB55 /* OneRepMaxTests.m */; };
+		E8B15073175A97B10005AB55 /* OpenSans-CondLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8B15071175A97B10005AB55 /* OpenSans-CondLight.ttf */; };
+		E8B15075175A97BE0005AB55 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8B15074175A97BE0005AB55 /* OpenSans-Semibold.ttf */; };
+		E8B15076175A97BE0005AB55 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8B15074175A97BE0005AB55 /* OpenSans-Semibold.ttf */; };
+		E8B15078175C145A0005AB55 /* OpenSans-CondLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8B15071175A97B10005AB55 /* OpenSans-CondLight.ttf */; };
+		E8B15083175C37190005AB55 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8B15082175C37190005AB55 /* OpenSans-Regular.ttf */; };
+		E8B15084175C37190005AB55 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8B15082175C37190005AB55 /* OpenSans-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +64,9 @@
 		E8B15062175A967E0005AB55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E8B15064175A967E0005AB55 /* OneRepMaxTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneRepMaxTests.h; sourceTree = "<group>"; };
 		E8B15065175A967E0005AB55 /* OneRepMaxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneRepMaxTests.m; sourceTree = "<group>"; };
+		E8B15071175A97B10005AB55 /* OpenSans-CondLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-CondLight.ttf"; sourceTree = "<group>"; };
+		E8B15074175A97BE0005AB55 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		E8B15082175C37190005AB55 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +126,7 @@
 		E8B1503A175A967D0005AB55 /* OneRepMax */ = {
 			isa = PBXGroup;
 			children = (
+				E8B1506F175A97770005AB55 /* Resources */,
 				E8B15043175A967D0005AB55 /* LEAppDelegate.h */,
 				E8B15044175A967D0005AB55 /* LEAppDelegate.m */,
 				E8B1504C175A967D0005AB55 /* MainStoryboard.storyboard */,
@@ -158,6 +168,24 @@
 				E8B15061175A967E0005AB55 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8B1506F175A97770005AB55 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8B15070175A97800005AB55 /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E8B15070175A97800005AB55 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E8B15074175A97BE0005AB55 /* OpenSans-Semibold.ttf */,
+				E8B15071175A97B10005AB55 /* OpenSans-CondLight.ttf */,
+				E8B15082175C37190005AB55 /* OpenSans-Regular.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +265,9 @@
 				E8B15049175A967D0005AB55 /* Default@2x.png in Resources */,
 				E8B1504B175A967D0005AB55 /* Default-568h@2x.png in Resources */,
 				E8B1504E175A967D0005AB55 /* MainStoryboard.storyboard in Resources */,
+				E8B15078175C145A0005AB55 /* OpenSans-CondLight.ttf in Resources */,
+				E8B15075175A97BE0005AB55 /* OpenSans-Semibold.ttf in Resources */,
+				E8B15083175C37190005AB55 /* OpenSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8B15063175A967E0005AB55 /* InfoPlist.strings in Resources */,
+				E8B15073175A97B10005AB55 /* OpenSans-CondLight.ttf in Resources */,
+				E8B15076175A97BE0005AB55 /* OpenSans-Semibold.ttf in Resources */,
+				E8B15084175C37190005AB55 /* OpenSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

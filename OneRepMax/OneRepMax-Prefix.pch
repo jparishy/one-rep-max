@@ -12,3 +12,7 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+#define LEStyleFontRegular  (@"OpenSans-Regular")
+#define LEStyleFontCondensed (@"OpenSans-CondensedLight")
+#define LEStyleFontSemibold  (@"OpenSans-Semibold")
